@@ -1,0 +1,85 @@
+.btn-admin-direct {
+    border: 2px solid #00e6ff !important;
+    color: #00e6ff !important;
+    background: transparent !important;
+    padding: 14px 20px !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: all 0.25s ease-in-out !important;
+    box-shadow: 0 0 10px rgba(0, 230, 255, 0.2), inset 0 0 5px rgba(0, 230, 255, 0.1) !important;
+    width: 100% !important;
+    margin-top: 15px !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.btn-admin-direct:hover {
+    border-color: #ff007f !important;
+    color: #ff007f !important;
+    background: rgba(255, 0, 127, 0.08) !important;
+    box-shadow: 0 0 20px rgba(255, 0, 127, 0.6), inset 0 0 10px rgba(255, 0, 127, 0.2) !important;
+    transform: translateY(-2px) !important;
+}
+
+.neon-card {
+    background-color: var(--panel-bg);
+    border: 2px solid var(--neon-blue-dim);
+    box-shadow: 0 0 15px var(--neon-blue-dim);
+    border-radius: 10px;
+    padding: 2.5rem;
+    width: 550px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.btn-logout-neon {
+    border: 2px solid #ff007f !important;
+    color: #ff007f !important;
+    background: transparent !important;
+    padding: 12px 20px !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease-in-out !important;
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.2), inset 0 0 5px rgba(255, 0, 127, 0.1) !important;
+    width: 100% !important;
+    margin-top: 20px !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.btn-logout-neon:hover,
+.btn-logout-neon:active {
+    border-color: #ff007f !important;
+    color: #000000 !important;
+    background: #ff007f !important;
+    box-shadow: 0 0 25px #ff007f, 0 0 10px rgba(255, 0, 127, 0.4) !important;
+    transform: translateY(-2px) !important;
+}
+
+.neon-link {
+    color: #ff007f !important;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 0 0 5px rgba(255, 0, 127, 0.3);
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.neon-link:hover {
+    color: #ff007f !important;
+    text-decoration: underline !important;
+    text-shadow: 0 0 10px #ff007f, 0 0 5px rgba(255, 0, 127, 0.5);
+}

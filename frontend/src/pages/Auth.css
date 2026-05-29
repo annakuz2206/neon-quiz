@@ -1,0 +1,34 @@
+.auth-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.auth-error {
+    color: var(--neon-pink);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.auth-success {
+    color: var(--neon-green, #00ff66);
+    text-shadow: 0 0 10px rgba(0, 255, 102, 0.4);
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.auth-btn {
+    margin-top: 15px;
+}
+
+.auth-footer-text {
+    margin-top: 25px;
+    text-align: center;
+    color: gray;
+    font-size: 0.9rem;
+}

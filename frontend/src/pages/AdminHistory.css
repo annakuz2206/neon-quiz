@@ -1,0 +1,143 @@
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 230, 255, 0.3);
+    padding-bottom: 15px;
+}
+
+.history-title {
+    margin: 0;
+    color: var(--neon-blue);
+    text-shadow: 0 0 10px var(--neon-blue);
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.history-status-text {
+    text-align: center;
+    color: var(--neon-blue);
+    margin-top: 30px;
+}
+
+.history-empty-text {
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+}
+
+.history-table {
+    width: 100%;
+    min-width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    color: #fff;
+    table-layout: fixed;
+}
+
+.history-table th,
+.history-table td {
+    padding: 12px 6px;
+    vertical-align: middle;
+}
+
+.history-table th {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.history-table th:first-child,
+.history-table td:first-child {
+    width: 40%;
+}
+
+.history-table th:nth-child(2),
+.history-table td:nth-child(2) {
+    width: 15%;
+}
+
+.history-table th:nth-child(3),
+.history-table td:nth-child(3) {
+    width: 22%;
+}
+
+.history-table th:last-child,
+.history-table td:last-child {
+    width: 23%;
+}
+
+.table-head-row {
+    border-bottom: 2px solid var(--neon-blue-dim);
+    color: var(--neon-blue);
+    font-size: 0.9rem;
+}
+
+.table-body-row {
+    border-bottom: 1px solid #222;
+    transition: background 0.2s;
+    font-size: 0.9rem;
+}
+
+.table-body-row:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.quiz-title {
+    font-weight: 500;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.quiz-category {
+    font-size: 0.75rem;
+    color: gray;
+    margin-top: 2px;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.players-count {
+    color: var(--neon-pink);
+    font-weight: bold;
+}
+
+.winner-name {
+    color: var(--neon-green);
+    font-weight: bold;
+    white-space: normal;
+    word-break: break-word;
+    display: block;
+}
+
+.winner-score {
+    display: block;
+    color: #fff;
+    font-size: 0.85rem;
+    margin-top: 2px;
+    font-weight: normal;
+}
+
+.game-date {
+    color: #8892b0;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    display: block;
+}
+
+.game-time {
+    color: gray;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    display: block;
+    margin-top: 2px;
+}

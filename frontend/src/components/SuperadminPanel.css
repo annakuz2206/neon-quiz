@@ -1,0 +1,33 @@
+.superadmin-panel-container {
+    margin-top: 5px;
+    padding-top: 0;
+}
+
+.error-message {
+    color: var(--neon-pink);
+    font-size: 0.9rem;
+}
+
+.empty-message {
+    color: var(--neon-blue-dim);
+    font-size: 0.9rem;
+}
+
+.user-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.role-badge {
+    color: var(--neon-pink);
+}
+
+.btn-role-toggle {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin-top: 0;
+    width: auto;
+}
