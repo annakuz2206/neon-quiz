@@ -12,16 +12,23 @@ Real-time геймплей: Синхронное отображение вопр
 
 Аналитика: Интерактивная таблица лидеров по окончании викторины и история сессий в личном кабинете.
 
-**Стек технологий**
-Frontend: React.js, React Router DOM, CSS3 (Variables & Animations)
+**Стек технологий**  
+Frontend:  
+React.js,  
+React Router DOM,  
+CSS3 (Variables & Animations)
 
-Backend: Node.js, Express.js
+Backend:  
+Node.js,  
+Express.js
 
-Real-time связь: Socket.IO
+Real-time связь:  
+Socket.IO
 
-База данных: MySQL (локальная сборка через XAMPP)
+База данных:  
+MySQL (локальная сборка через XAMPP)
 
-**Структура репозитория**
+**Структура репозитория**  
 root/  
 ├── backend/          # Серверное приложение  
 ├── frontend/         # Клиентское приложение  
