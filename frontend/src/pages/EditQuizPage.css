@@ -1,6 +1,11 @@
 .edit-quiz-card {
-    max-width: 800px;
-    width: 100%;
+    width: 550px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem 3rem;
+    box-sizing: border-box;
 }
 
 .edit-quiz-header {
@@ -26,6 +31,7 @@
 
 .edit-meta-field {
     flex: 1;
+    min-width: 0;
 }
 
 .field-label {
@@ -44,6 +50,7 @@
     border-radius: 5px;
     margin-bottom: 20px;
     border: 1px solid #333;
+    box-sizing: border-box;
 }
 
 .question-block-header {
@@ -70,6 +77,7 @@
 
 .question-settings-field {
     flex: 1;
+    min-width: 0;
 }
 
 .select-dark {
@@ -83,6 +91,7 @@
     padding: 12px;
     border-radius: 6px;
     border: 1px dashed #444;
+    box-sizing: border-box;
 }
 
 .image-upload-label {
@@ -141,6 +150,7 @@
     border-radius: 4px;
     border: 1px solid var(--neon-blue);
     box-shadow: 0 0 8px rgba(0, 204, 255, 0.2);
+    object-fit: contain;
 }
 
 .options-section-label {
@@ -181,6 +191,8 @@
     margin-top: 0;
     padding: 6px 10px;
     font-size: 0.9rem;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .btn-add-option {
