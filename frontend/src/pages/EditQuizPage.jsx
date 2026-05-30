@@ -145,7 +145,17 @@ function EditQuizPage() {
         }
     };
 
-    if (loading) return <div className="app-container"><p>Загрузка данных квиза...</p></div>;
+    if (loading) {
+        return (
+            <div className="app-container">
+                <div className="neon-card edit-quiz-card" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <p style={{ color: 'var(--neon-blue)', textShadow: '0 0 10px var(--neon-blue)', margin: 0, fontWeight: 'bold' }}>
+                        Загрузка данных квиза...
+                    </p>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="app-container">
@@ -156,7 +166,6 @@ function EditQuizPage() {
                 </div>
 
                 <div className="scroll-container" style={{ maxHeight: '70vh', paddingRight: '5px' }}>
-                    {/* Метаданные */}
                     <div className="edit-meta-grid">
                         <div className="edit-meta-field">
                             <label className="field-label">Название квиза</label>
@@ -170,7 +179,6 @@ function EditQuizPage() {
 
                     <h3>Вопросы квиза ({questions.length})</h3>
 
-                    {/* Рендеринг вопросов */}
                     {questions.map((q, qIndex) => (
                         <div key={qIndex} className="question-block">
                             <div className="question-block-header">
@@ -209,7 +217,6 @@ function EditQuizPage() {
                                 </div>
                             </div>
 
-                            {/* БЛОК КАРТИНКИ */}
                             <div className="image-upload-wrapper">
                                 <label className="image-upload-label">Изображение вопроса</label>
 
@@ -247,7 +254,6 @@ function EditQuizPage() {
                                 )}
                             </div>
 
-                            {/* Опции вопроса */}
                             <label className="options-section-label">Варианты ответов (зеленый круг — правильный):</label>
                             <div className="options-list-wrapper">
                                 {q.options.map((opt, optIndex) => (
